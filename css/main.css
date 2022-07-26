@@ -1,0 +1,191 @@
+/* ================= Dried ================== */
+.dried .main {
+    font-size: 22px;
+}
+
+.dried .cd {
+    font-size: 18px;
+    color: #adafb7;
+}
+
+/* ================= Dried-content ================== */
+.dried-content .name-menu {
+    font-size: 22px;
+    font-weight: 700;
+}
+#juicePage .jucie-content .price-j{
+    background-color: #f5f6f8;
+}
+
+.dried-content .card .card-title {
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.dried-content .card .card-text {
+    font-size: 18px;
+}
+
+.dried-content .card {
+    border-radius: 0;
+}
+
+.dried-content .card-body a {
+    background-color: #45bb0c;
+    color: #fff;
+    left: 37%;
+    bottom: -16%;
+}
+
+.dried-content .pagination .page-item:first-child .page-link {
+    margin: 50px 0;
+    border: none;
+    border-radius: 0;
+    color: #adafb7;
+}
+
+.dried-content .page-item:not(:first-child) .page-link {
+    margin: 50px 0;
+    border: none;
+    border-radius: 0;
+    color: #adafb7;
+}
+
+.dried-content .page-item.active .page-link {
+    background-color: #45bb0c;
+    color: #fff;
+}
+
+/* ================= Join ================== */
+
+.join {
+    background: #45bb0c;
+}
+
+.join h2 {
+    padding: 100px 0 0 0;
+    font-size: 36px;
+}
+
+.join p {
+    font-size: 22px;
+    margin: 50px 0;
+}
+
+.join .join-btn {
+    padding: 8px 30px;
+    color: #45bb0c;
+    background: #fff;
+}
+
+
+/* ====================== HOMEPAGE ========================== */
+#homePage .banner {
+    background-image: url(../img/bg/v-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#homePage .intro {
+    padding: 180px 0px;
+}
+
+#homePage .banner .title {
+    color: #45bb0c;
+    font-size: 56px;
+}
+
+#homePage .banner .text {
+    color: #fff;
+    font-size: 28px;
+}
+
+/* ===============fruit================ */
+#homePage .fruit {
+    /* background-color: #f6f7f9; */
+}
+
+
+#homePage .fruit .swiper {
+    overflow: visible;
+}
+
+#homePage .swiper-horizontal>.swiper-pagination-bullets,
+#homePage .swiper-pagination-bullets.swiper-pagination-horizontal,
+#homePage .swiper-pagination-custom,
+#homePage .swiper-pagination-fraction {
+    bottom: -50px;
+    left: 0px;
+    width: 100%;
+}
+/* ================saleOff================= */
+#homePage .saleOff .img-sale{
+    object-fit: cover;
+}
+/* ===========onlySale============== */
+#homePage .onlySale .bg-sale{
+    background-image: url(../img/landing-layer1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#homePage .onlySale .title{
+    color: #45bb0c;  
+}
+#homePage .onlySale .fruit{
+    padding: 80px 0;
+}
+
+#homePage .fresh-fruit{
+    background-color: #242834;
+}
+/* ============blog=========== */
+#homePage .blog .carousel-indicators{
+
+    bottom: -65px;
+}
+.carousel-indicators [data-bs-target] {
+    height: 6px;
+    background-color: #45bb0c;
+}
+#homePage .blog .active{
+
+}
+
+/* ==================JUCIE PAGE================== */
+#juicePage .jucie-content .search{
+    display: unset;
+}
+#juicePage .jucie-content .form-control{
+    border-radius: 0px;
+}
+#juicePage .jucie-content .search .btn-green{
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border: 1px solid #45bb0c;
+}
+#juicePage .jucie-content .active>.page-link, .page-link.active {
+    color: var(--bs-pagination-active-color);
+    background-color: #45bb0c;
+    border-color: #45bb0c;
+}
+#juicePage .jucie-content .page-link {
+    color: #adaeb5;
+}
+/* ============Event============ */
+#juicePage .event{
+    background-image: url(../img/bg/bg-page-title.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#juicePage .event .btn-green{
+    background-color: #45bb0c;
+}
+/* ===========total-sale============= */
+#juicePage .total-content{
+    top: 0px;
+}
+#juicePage .total-sale .btn-green{
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}

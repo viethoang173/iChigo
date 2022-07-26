@@ -1,0 +1,94 @@
+/* ================= all ================== */
+* {
+    font-family: 'Lato', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.bg{
+    background-color: #f5f6f8;
+}
+section{
+    padding: 80px 0px;
+}
+.card-body{
+    border-top: 1px solid var(--bs-border-color-translucent);
+
+}
+/* ==========BTn=========== */
+.btn-green{
+    border: 1px #45bb0c solid;
+    border-radius: 30px;
+    background-color: #45bb0c;
+    color: #ececec;
+    font-size: 22px;
+    right: 5%;
+    bottom: -15%;
+}
+.btn-green:hover{
+    border: 1px solid #45bb0c;
+    background-color: #45bb0c;
+    color: #fff;
+}
+
+
+/* ================= header ================== */
+header .navbar-brand{
+    font-size: 14px;
+}
+header .collapse .right-side{
+    font-size: 14px;
+}
+header .middle-header{
+    align-items: center;
+}
+header .navbar-expand-lg .navbar-nav .fix{
+    border-right: 1px solid #ececec;
+}
+header .down{
+    border: solid 1px #ececec;
+    border-radius: 5px 0 0 5px;
+}
+header button, input, optgroup, select, textarea{
+    border-left: none;
+    border-top: solid 1px #ececec;
+    border-bottom: solid 1px #ececec;
+    border-right: solid 1px #ececec;
+    outline: none;
+}
+header .middle-icon{
+    background-color: #45bb0c;
+    padding: 12px;
+}
+header .btn.middle-btn {
+    border-radius: 0 5px 5px 0;
+    color: #fff;
+    background: #45bb0c;
+}
+header .right-btn{
+    background-color: #45bb0c;
+    border-radius: 5px;
+    color: #fff;
+}
+header .navbar-expand-lg .navbar-nav .bottom-header  {
+    margin: 0 29px;
+}
+header .seller-btn{
+    border: #45bb0c solid 1px;
+    color: #45bb0c;
+    background: #fff;
+}
+/* =============footer============ */
+footer{
+    padding-top: 80px;
+    background-color: #282828;
+    color: white;
+}
+footer .oomato .img{
+    object-fit: cover;
+    width: 100%;
+}
+footer .coppy{
+    border-top: 1px solid white;
+}
+
