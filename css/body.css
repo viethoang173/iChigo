@@ -30,8 +30,20 @@ section{
     background-color: #45bb0c;
     color: #fff;
 }
+.btn-tag{
+    border: 1px solid #ececec;
+    border-radius: 20px;
+}
 
-
+.under::after{
+    position: absolute;
+    content: "";
+    width: 30px;
+    height: 3px;
+    background-color: #f5f6f8;
+    left: 0;
+    bottom: 0px;
+}
 /* ================= header ================== */
 header .navbar-brand{
     font-size: 14px;
@@ -80,9 +92,10 @@ header .seller-btn{
 }
 /* =============footer============ */
 footer{
+    background-image: url(../img/bg/bg-footer-top.png);
     padding-top: 80px;
-    background-color: #282828;
     color: white;
+    background-size: cover;
 }
 footer .oomato .img{
     object-fit: cover;

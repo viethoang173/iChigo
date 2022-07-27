@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/body.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <link rel='stylesheet prefetch' href='https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css'>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <title>Document</title>
+
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav class=" navbar navbar-expand-lg">
+                <a class="navbar-brand" href="#">Welcome to Oomato market online shoping store</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                    <ul class="navbar-nav right-side">
+                        <li class="nav-item">
+                            <a class="fix nav-link" aria-current="page" href="#">Store Locations</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="fix nav-link" href="#">Track Your Order</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                US Dollar
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">Dollar</a></li>
+                                <li><a class="dropdown-item" href="#">Euro</a></li>
+                                <li><a class="dropdown-item" href="#">VND</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+        <div class="container middle-header d-flex justify-content-between">
+            <img src="img/logo/logo1.png" alt="">
+            <div class="d-flex justify-content-center">
+                <button type="button" class="down btn dropdown-toggle" data-bs-toggle="dropdown">
+                    All
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Link 1</a></li>
+                    <li><a class="dropdown-item" href="#">Link 2</a></li>
+                    <li><a class="dropdown-item" href="#">Link 3</a></li>
+                </ul>
+                <input type="text" class="middle-text">
+                <img src="img/search.png" class="middle-icon" alt="">
+                <a href="#" class="btn middle-btn">Search</a>
+            </div>
+            <div class="align-items-center">
+                <img src="img/heart.png" style="height: 20px;" class="m-3" alt="">
+                <img src="img/heart.png" style="height: 20px;" class="m-3" alt="">
+                <a href="#" class="right-btn btn ms-3">Login/Sign up</a>
+            </div>
+        </div>
+
+        <nav class="navbar navbar-expand-lg border-top m-3">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-between" id="navbarNavDropdown">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item">
+                            <a class="bottom-header nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="bottom-header nav-link" href="#">Vegetables</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="bottom-header nav-link" href="#">Fruits</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="bottom-header nav-link" href="#">Meat</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="bottom-header nav-link" href="#">Dried Foods</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="bottom-header nav-link" href="#">Juices</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="bottom-header nav-link" href="#">Pages</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="bottom-header nav-link" href="#">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="bottom-header nav-link" href="#">Contact Us</a>
+                        </li>
+                    </ul>
+                    <a href="#" class="btn seller-btn">Become Seller</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div id="wishcart">
+        <section class="dried bg p-0">
+            <div class="container d-flex justify-content-between">
+                <a href="">
+                    <p class="main m-0 p-5 fs-5">Shopping Cart</p>
+                </a>
+                <a href=""></a>
+                <p class="cd m-0 p-5 fs-5"><a href="">Home</a> > <a class="fs-5" href="">Shopping Cart</a> </p>
+            </div>
+        </section>
+        <section class="totalPrice">
+            <div class="container">
+                <table class="">
+                    <tr class="bg py-5">
+                        <th>Product</th>
+                        <th>Product Price</th>
+                        <th>Quanitity</th>
+                        <th>Total Price</th>
+                    </tr>
+                    <tr class="border-bt">
+                        <td>
+                            <div class="leftSide d-flex">
+                                <img class="img-side" src="img/sb1.png" alt="">
+                                <div class="stars ms-4">
+                                    <form action="">
+                                        <input class="star star-1" id="star-1" type="radio" name="star" />
+                                        <label class="star star-1 ps-0" for="star-1"></label>
+                                        <input class="star star-2" id="star-2" type="radio" name="star" />
+                                        <label class="star star-2" for="star-2"></label>
+                                        <input class="star star-3" id="star-3" type="radio" name="star" />
+                                        <label class="star star-3" for="star-3"></label>
+                                        <input class="star star-4" id="star-4" type="radio" name="star" />
+                                        <label class="star star-4" for="star-4"></label>
+                                        <input class="star star-5" id="star-5" type="radio" name="star" />
+                                        <label class="star star-5" for="star-5"></label>
+                                    </form>
+                                    <p class="under text-secondary m-0 py-3 position-relative">5.0 | 32 Review</p>
+                                    <p class="m-0 py-3"><span class="text-secondary ">Oraganic</span> Apple</p>
+                                    <p class="text-secondary">FRUIT</p>
+                                </div>
+                            </div>
+                        </td>
+                        <td class="fs-5 fw-bold">$12<span
+                                class="text-decoration-line-through ms-2 text-secondary fs-6">$18</span></td>
+                        <td>
+                            <div class="buttons_added">
+                                <input class="minus is-form" type="button" value="-">
+                                <input aria-label="quantity" class="input-qty" max="999" min="0" name="" type="number"
+                                    value="1">
+                                <input class="plus is-form" type="button" value="+">
+                            </div>
+                        </td>
+                        <td class="fs-5 fw-bold">$12<span
+                                class="text-decoration-line-through ms-2 text-secondary fs-6">$18</span></td>
+                    </tr>
+                    <tr class="border-bt">
+                        <td>
+                            <div class="leftSide d-flex">
+                                <img class="img-side" src="img/sb1.png" alt="">
+                                <div class="stars ms-4">
+                                    <form action="">
+                                        <input class="star star-1" id="star-1" type="radio" name="star" />
+                                        <label class="star star-1 ps-0" for="star-1"></label>
+                                        <input class="star star-2" id="star-2" type="radio" name="star" />
+                                        <label class="star star-2" for="star-2"></label>
+                                        <input class="star star-3" id="star-3" type="radio" name="star" />
+                                        <label class="star star-3" for="star-3"></label>
+                                        <input class="star star-4" id="star-4" type="radio" name="star" />
+                                        <label class="star star-4" for="star-4"></label>
+                                        <input class="star star-5" id="star-5" type="radio" name="star" />
+                                        <label class="star star-5" for="star-5"></label>
+                                    </form>
+                                    <p class="under text-secondary m-0 py-3 position-relative">5.0 | 32 Review</p>
+                                    <p class="m-0 py-3"><span class="text-secondary ">Oraganic</span> Apple</p>
+                                    <p class="text-secondary">FRUIT</p>
+                                </div>
+                            </div>
+                        </td>
+                        <td class="fs-5 fw-bold">$12<span
+                                class="text-decoration-line-through ms-2 text-secondary fs-6">$18</span></td>
+                        <td>
+                            <div class="buttons_added">
+                                <input class="minus is-form" type="button" value="-">
+                                <input aria-label="quantity" class="input-qty" max="999" min="0" name="" type="number"
+                                    value="1">
+                                <input class="plus is-form" type="button" value="+">
+                            </div>
+                        </td>
+                        <td class="fs-5 fw-bold">$12<span
+                                class="text-decoration-line-through ms-2 text-secondary fs-6">$18</span></td>
+                    </tr>
+                    <tr class="border-bt">
+                        <td>
+                            <div class="leftSide d-flex">
+                                <img class="img-side" src="img/sb1.png" alt="">
+                                <div class="stars ms-4">
+                                    <form action="">
+                                        <input class="star star-1" id="star-1" type="radio" name="star" />
+                                        <label class="star star-1 ps-0" for="star-1"></label>
+                                        <input class="star star-2" id="star-2" type="radio" name="star" />
+                                        <label class="star star-2" for="star-2"></label>
+                                        <input class="star star-3" id="star-3" type="radio" name="star" />
+                                        <label class="star star-3" for="star-3"></label>
+                                        <input class="star star-4" id="star-4" type="radio" name="star" />
+                                        <label class="star star-4" for="star-4"></label>
+                                        <input class="star star-5" id="star-5" type="radio" name="star" />
+                                        <label class="star star-5" for="star-5"></label>
+                                    </form>
+                                    <p class="under text-secondary m-0 py-3 position-relative">5.0 | 32 Review</p>
+                                    <p class="m-0 py-3"><span class="text-secondary ">Oraganic</span> Apple</p>
+                                    <p class="text-secondary">FRUIT</p>
+                                </div>
+                            </div>
+                        </td>
+                        <td class="fs-5 fw-bold">$12<span
+                                class="text-decoration-line-through ms-2 text-secondary fs-6">$18</span></td>
+                        <td>
+                            <div class="buttons_added">
+                                <input class="minus is-form" type="button" value="-">
+                                <input aria-label="quantity" class="input-qty" max="999" min="0" name="" type="number"
+                                    value="1">
+                                <input class="plus is-form" type="button" value="+">
+                            </div>
+                        </td>
+                        <td class="fs-5 fw-bold">$12<span
+                                class="text-decoration-line-through ms-2 text-secondary fs-6">$18</span></td>
+                    </tr>
+
+                </table>
+                <nav class="navbar mt-5">
+                    <div class="container-fluid p-0">
+                        <form class="d-flex">
+                            <input class="form-control" type="text" placeholder="Enter Your Promo-code">
+                            <button class="btn btn-outline-success text-white" type="submit">Search</button>
+                        </form>
+                        <a class="btn-green btn fs-6 text-white" href="">Process to checkout</a>
+                    </div>
+                </nav>
+            </div>
+        </section>
+        <section class="fruit overflow-hidden bg">
+            <div class="container p-0">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <img class="card-img-top p-3" src="img/h1-slide2-layer2.png" alt="Card image cap">
+                                <div class="card-body position-relative">
+                                    <h5 class="card-title fw-bold">Nectarine </h5>
+                                    <p class="card-text">Nectarine</p>
+                                    <p>$12</p>
+                                    <a href="#" class="btn btn-green position-absolute">Add to card</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <img class="card-img-top p-3" src="img/h1-slide2-layer2.png" alt="Card image cap">
+                                <div class="card-body position-relative">
+                                    <h5 class="card-title fw-bold">Nectarine </h5>
+                                    <p class="card-text">Nectarine</p>
+                                    <p>$12</p>
+                                    <a href="#" class="btn btn-green position-absolute">Add to card</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <img class="card-img-top p-3" src="img/h1-slide2-layer2.png" alt="Card image cap">
+                                <div class="card-body position-relative">
+                                    <h5 class="card-title fw-bold">Nectarine </h5>
+                                    <p class="card-text">Nectarine</p>
+                                    <p>$12</p>
+                                    <a href="#" class="btn btn-green position-absolute">Add to card</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <img class="card-img-top p-3" src="img/h1-slide2-layer2.png" alt="Card image cap">
+                                <div class="card-body position-relative">
+                                    <h5 class="card-title fw-bold">Nectarine </h5>
+                                    <p class="card-text">Nectarine</p>
+                                    <p>$12</p>
+                                    <a href="#" class="btn btn-green position-absolute">Add to card</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <img class="card-img-top p-3" src="img/h1-slide2-layer2.png" alt="Card image cap">
+                                <div class="card-body position-relative">
+                                    <h5 class="card-title fw-bold">Nectarine </h5>
+                                    <p class="card-text">Nectarine</p>
+                                    <p>$12</p>
+                                    <a href="#" class="btn btn-green position-absolute">Add to card</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <img class="card-img-top p-3" src="img/h1-slide2-layer2.png" alt="Card image cap">
+                                <div class="card-body position-relative">
+                                    <h5 class="card-title fw-bold">Nectarine </h5>
+                                    <p class="card-text">Nectarine</p>
+                                    <p>$12</p>
+                                    <a href="#" class="btn btn-green position-absolute">Add to card</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <img class="card-img-top p-3" src="img/h1-slide2-layer2.png" alt="Card image cap">
+                                <div class="card-body position-relative">
+                                    <h5 class="card-title fw-bold">Nectarine </h5>
+                                    <p class="card-text">Nectarine</p>
+                                    <p>$12</p>
+                                    <a href="#" class="btn btn-green position-absolute">Add to card</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <img class="card-img-top p-3" src="img/h1-slide2-layer2.png" alt="Card image cap">
+                                <div class="card-body position-relative">
+                                    <h5 class="card-title fw-bold">Nectarine </h5>
+                                    <p class="card-text">Nectarine</p>
+                                    <p>$12</p>
+                                    <a href="#" class="btn btn-green position-absolute">Add to card</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <img class="card-img-top p-3" src="img/h1-slide2-layer2.png" alt="Card image cap">
+                                <div class="card-body position-relative">
+                                    <h5 class="card-title fw-bold">Nectarine </h5>
+                                    <p class="card-text">Nectarine</p>
+                                    <p>$12</p>
+                                    <a href="#" class="btn btn-green position-absolute">Add to card</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <img class="card-img-top p-3" src="img/h1-slide2-layer2.png" alt="Card image cap">
+                                <div class="card-body position-relative">
+                                    <h5 class="card-title fw-bold">Nectarine </h5>
+                                    <p class="card-text">Nectarine</p>
+                                    <p>$12</p>
+                                    <a href="#" class="btn btn-green position-absolute">Add to card</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <img class="card-img-top p-3" src="img/h1-slide2-layer2.png" alt="Card image cap">
+                                <div class="card-body position-relative">
+                                    <h5 class="card-title fw-bold">Nectarine </h5>
+                                    <p class="card-text">Nectarine</p>
+                                    <p>$12</p>
+                                    <a href="#" class="btn btn-green position-absolute">Add to card</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <img class="card-img-top p-3" src="img/h1-slide2-layer2.png" alt="Card image cap">
+                                <div class="card-body position-relative">
+                                    <h5 class="card-title fw-bold">Nectarine </h5>
+                                    <p class="card-text">Nectarine</p>
+                                    <p>$12</p>
+                                    <a href="#" class="btn btn-green position-absolute">Add to card</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </section>
+        <section class="event">
+            <div class="event-content text-center">
+                <h2 class="fs-1 text-white">Join our Event & make help us to farmer</h2>
+                <p class="fs-4 text-white my-5">Over 25,000 User and Farmer trust the MartPlace. </p>
+                <a class="btn btn-green fs-6" href="">Join Now</a>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <div class="container-xxl">
+            <div class="row mb-4">
+                <div class="col-lg col-md-4 col-6 d-flex justify-content-lg-center">
+                    <div>
+                        <h6 class="title text-dark">CONTACTS</h6>
+                        <ul class="list-unstyled">
+                            <li class="d-flex text pb-3">
+                                <span class="firstLetter"></span>
+                                <div>Quận Long Biên, Thành phố Hà Nội, Việt Nam</div>
+                            </li>
+                            <li class="d-flex text pb-3">
+                                <span class="firstLetter"></span>
+                                <div>1900633815 </div>
+                            </li>
+                            <li class="d-flex text pb-3">
+                                <span class="firstLetter"></span>
+                                <div><a class="text-white" href="mailto:info@metawaytech.com">info@metawaytech.com</a>
+                                </div>
+                            </li>
+                            <li class="d-flex text pb-3">
+                                <span class="firstLetter"></span>
+                                <div>www.metawaytech.com</div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg col-md-4 col-6 d-flex justify-content-lg-center">
+                    <div>
+                        <h6 class="title text-dark">OUR COMPANY</h6>
+                        <ul class="list-unstyled">
+                            <li class="pb-3"><a class="text-white " class="text" href="blockchain.html">Search Page</a>
+                            </li>
+                            <li class="pb-3"><a class="text-white " href="ai-bigdata.html">About Us</a></li>
+                            <li class="pb-3"><a class="text-white " href="metaverse.html">Contact Us</a></li>
+                            <li class="pb-3"><a class="text-white " href="iot.html">Collections</a></li>
+                            <li class="pb-3"><a class="text-white " href="iot.html">Catalog page</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg col-md-4 col-6 d-flex justify-content-lg-center">
+                    <div>
+                        <h6 class="title fs-5 text-dark">INFORMATIONS</h6>
+                        <ul class="list-unstyled">
+                            <li class="pb-3"><a class="text-white " href="blockchain.html">Search Page</a></li>
+                            <li class="pb-3"><a class="text-white " href="ai-bigdata.html">About Us</a></li>
+                            <li class="pb-3"><a class="text-white " href="metaverse.html">Contact Us</a></li>
+                            <li class="pb-3"><a class="text-white " href="iot.html">Collections</a></li>
+                            <li class="pb-3"><a class="text-white " href="iot.html">Catalog page</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg col-md-4 col-6 d-flex justify-content-lg-center">
+                    <div>
+                        <h6 class="title fs-5 text-dark">CATEGORIES</h6>
+                        <ul class="list-unstyled">
+                            <li class="pb-3"><a class="text-white pb-3" href="blockchain.html">Fruits</a></li>
+                            <li class="pb-3"><a class="text-white pb-3" href="ai-bigdata.html">Juice</a></li>
+                            <li class="pb-3"><a class="text-white pb-3" href="metaverse.html">Vegetables</a></li>
+                            <li class="pb-3"><a class="text-white pb-3" href="iot.html">Other Products</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg col-md-4 col-6 d-flex justify-content-lg-center">
+                    <div>
+                        <h6 class="title fs-5 text-dark">@OMATO MARKET</h6>
+                        <div class="row img-footer">
+                            <div class="col-4 "><img src="img/77x77-ft.jpg" alt=""></div>
+                            <div class="col-4 "><img src="img/77x77-ft.jpg" alt=""></div>
+                            <div class="col-4 "><img src="img/77x77-ft.jpg" alt=""></div>
+                            <div class="col-4 "><img src="img/77x77-ft.jpg" alt=""></div>
+                            <div class="col-4 "><img src="img/77x77-ft.jpg" alt=""></div>
+                            <div class="col-4 "><img src="img/77x77-ft.jpg" alt=""></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="coppy">
+            <div class="container-xxl">
+                <div class="text-center py-4 text-white">
+                    <p class="m-0">2020 all rights reserved.Power by Madbrains</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <script>//<![CDATA[
+        $('input.input-qty').each(function () {
+            var $this = $(this),
+                qty = $this.parent().find('.is-form'),
+                min = Number($this.attr('min')),
+                max = Number($this.attr('max'))
+            if (min == 0) {
+                var d = 0
+            } else d = min
+            $(qty).on('click', function () {
+                if ($(this).hasClass('minus')) {
+                    if (d > min) d += -1
+                } else if ($(this).hasClass('plus')) {
+                    var x = Number($this.val()) + 1
+                    if (x <= max) d += 1
+                }
+                $this.attr('value', d).val(d)
+            })
+        })
+        //]]></script>
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 4,
+            spaceBetween: 20,
+            freeMode: true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+        });
+    </script>
+</body>
+
+</html>
