@@ -21,7 +21,7 @@ section{
     border-radius: 30px;
     background-color: #45bb0c;
     color: #ececec;
-    font-size: 22px;
+    font-size: 18px;
     right: 5%;
     bottom: -15%;
 }
@@ -44,6 +44,11 @@ section{
     left: 0;
     bottom: 0px;
 }
+/* ===========border============= */
+.border-bt{
+    border-bottom: 1px solid #ececed;
+}
+
 /* ================= header ================== */
 header .navbar-brand{
     font-size: 14px;
@@ -104,4 +109,5 @@ footer .oomato .img{
 footer .coppy{
     border-top: 1px solid white;
 }
+
 

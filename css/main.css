@@ -338,3 +338,9 @@ td,th{
     background-color: #45bb0c;
     border: #45bb0c;
 }
+/* ============shipping=============== */
+.form-check-input:checked[type=checkbox] {
+    background-image: none;
+}
+.form-check-input:checked {
+    background-color: #45bb0c;
